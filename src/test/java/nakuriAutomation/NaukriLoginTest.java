@@ -1,3 +1,5 @@
+package nakuriAutomation;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,9 +9,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
-public class nakuriAutomation {
+public class NaukriLoginTest {
 
 
     public WebDriver driver;

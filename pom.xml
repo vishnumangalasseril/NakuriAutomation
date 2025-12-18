@@ -9,7 +9,7 @@
 	<groupId>TestAutomation</groupId>
 	<artifactId>NaukariAutomation</artifactId>
 	<version>1.0</version>
-	<name>SeleniumJavaFramework</name>
+	<name>NaukariAutomation</name>
 <!--	<build>
 		<resources>
 			<resource>
