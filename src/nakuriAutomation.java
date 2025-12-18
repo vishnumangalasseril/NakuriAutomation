@@ -53,7 +53,7 @@ public class nakuriAutomation {
         WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(30));
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//form[@name='resumeHeadlineForm']//button")));
         driver.findElement(By.xpath("//form[@name='resumeHeadlineForm']//button")).click();
-
+        driver.quit();
 
     }
 }
